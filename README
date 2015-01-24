@@ -1,0 +1,37 @@
+A Simple 2D Carrom Board
+
+Controls
+--------
+
+a = 'anticlockwise rotation'
+c = 'clockwise rotation'
+space = 'hit'
+arrow-left = 'move striker left'
+arrow-right = 'move striker right'
+arrow-up = 'increase power'
+arrow-down = 'decrease power'
+r = 'reset striker position'
+esc = 'quit game'
+
+Mouse
+-----
+Drag the striker along the line to position it
+Direct the striker using the mouse and Increase the power by moving the mouse far from the striker
+'Click' to fire
+
+Rules
+-----
+
+Score decreases by 1 every second
++10 for white coin
+-5 for black coin or striker
++50 for red coin
+
+Config
+------
+
+COLOR: 1/0 to choose between white or black coins for positive points
+TIME_FACTOR : Increase it to slow down coins/striker speed - slow-mo
+SMASS: Change Striker Mass
+CMASS: Change Coin Mass
+FRICTION: Change friction factor
